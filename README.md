@@ -141,7 +141,7 @@ $ adb shell
 
 Clone the project by using below command  
 ```sh
-$ git clone <GIT_LINK> 
+$ git clone https://github.com/globaledgesoft/ROS1-OpenRMF-integration-with-Turtlebot3-for-Fleet-management-using-RB5-with-web-visualisation.git 
 ```
 Change directory where project is cloned and and make sure the Dockerfile is available in the root of the project: 
 ```sh
@@ -198,7 +198,7 @@ with package provided in the assets folder
 ```sh
 $ cd ~/ff_ros1_ws/src/free_fleet/
 $ sudo rm -r ff_examples_ros1
-$ cp -r OpenRMF-integration-with-Turtlebot3-for-Fleet-management-using-RB5-on web/assets/ff_examples_ros1 .
+$ cp -r ROS1-OpenRMF-integration-with-Turtlebot3-for-Fleet-management-using-RB5-with-web-visualisation/assets/ff_examples_ros1 .
 ```
 
 Install all the dependencies through rosdep, 
@@ -329,7 +329,7 @@ $  roslaunch rosbridge_server rosbridge_websocket.launch
 ```
 - On host system run React application we developed a web application using React for teleoperating and monitoring a robot through the Robot Operating System (ROS). Through the web interface, users can take control of the robot, observe the navigation map, and track its position, orientation, and velocity. Additionally, we've incorporated the capability to visualize and monitor a fleet of robots on the web using ros2djs. The application is built with ReactJS, a widely-used JavaScript framework for front-end development.
 ```sh
-$   cd OpenRMF-integration-with-Turtlebot3-for-Fleet-management-using-RB5-on web/assets/rosbridge_web_dashboard
+$   cd ROS1-OpenRMF-integration-with-Turtlebot3-for-Fleet-management-using-RB5-with-web-visualisation/assets/rosbridge_web_dashboard
 $   npm install
 $   npm start
 ```
